@@ -92,6 +92,7 @@ main {
 }
 
 .ava .inner {
+  height: 65%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -105,15 +106,16 @@ main {
   position: relative;
 }
 .ava .inner h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: .5rem;
+  font-weight: 500;
 }
 
 
 .tile ul {
   list-style: none;
   padding: 1rem 2rem;
-  height: 25%;
+  height: 35%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -144,11 +146,17 @@ main {
   display: flex;
   justify-content: space-between;
 }
+.desc h3 {
+  font-weight: 500;
+}
 .timeline h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: .5rem 0;
 }
 .timeline h4 {
   color: var(--PaleBlue);
+  font-weight: 400;
 }
 
 
@@ -181,6 +189,7 @@ section a{
   .ava .inner {
     flex-direction: row;
     align-items: center;
+    height: 75%;
   }
   .ava .inner div {
     margin-left: 1rem;
@@ -199,5 +208,6 @@ section a{
   }
   .tile ul {
     flex-direction: row;
+    height: 25%;
   }
 }
