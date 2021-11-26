@@ -32,8 +32,8 @@ const array = [
 ];
 
 for (let i = 0; i<6; i++){
-  $(`.current`).eq(i).html(array[i][0][0] + " ");
-  $(`.last`).eq(i).html(array[i][0][1] + " ");
+  $(`.current`).eq(i).html(array[i][0][0]);
+  $(`.last`).eq(i).html(array[i][0][1]);
 }
 
 $(".tile ul li").click(function(){
@@ -45,7 +45,7 @@ $(".tile ul li").click(function(){
   }
   let index = $(this).index();
   for (let i = 0; i<6; i++){
-    $(`.current`).eq(i).html(array[i][index][0] + " ");
-    $(`.last`).eq(i).html(array[i][index][1] + " ");
+    $(`.current`).eq(i).html(array[i][index][0]);
+    $(`.last`).eq(i).html(array[i][index][1]);
   }
 });
