@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 :root {
@@ -182,6 +182,9 @@ section a{
   .ava .inner {
     flex-direction: row;
     align-items: center;
+  }
+  .ava .inner div {
+    margin-left: 1rem;
   }
   .timeline {
     display: flex;
