@@ -32,12 +32,13 @@ main {
   align-items: center;
 }
 .container  {
-  padding: 5rem 0;
+  padding: 10rem 0;
   width: 80%;
-  min-height: 100vh;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
+  background-color: #fff;
   color: #fff;
 }
 .tile {
@@ -90,7 +91,6 @@ main {
   justify-content: space-around;
   z-index: 2;
 }
-
 
 .ava .inner {
   display: flex;
@@ -166,7 +166,6 @@ section a{
 
 @media (max-width: 1080px) {
   .container {
-    padding: 2rem 0;
     width: 90%;
   }
 }
@@ -177,6 +176,7 @@ section a{
 }
 @media (max-width: 500px) {
   .container {
+    padding: 2rem 0;
     grid-template-columns: 1fr;
   }
   .ava .inner {
